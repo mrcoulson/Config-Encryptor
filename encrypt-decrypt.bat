@@ -29,7 +29,7 @@ ECHO Enter the site name for the application (see above):
 SET /p site= 
 ECHO.
 
-if %site%==%site1% SET siteID=%siteIDvar1%
+IF %site%==%site1% SET siteID=%siteIDvar1%
 
 ECHO Running:
 ECHO %aspnetpath%aspnet_regiis.exe -p%action% "%section%" -app "%app%" -site "%siteID%"
