@@ -3,6 +3,13 @@ Config-Encryptor
 
 Encrypts or decrypts sections of a web.config file so you don't have to remember the command.
 
+Requirements
+------------
+
+* ASP.NET framework.
+* An ASP.NET web application with a Web.config file.
+* Probably any version of IIS and Windows, but it's only tested on Win Server 2K3/IIS 6.
+
 Setup
 -----
 
